@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-n^wa2h=-))p5nvda#=&iess_%eeozjxam^9ra^%cpz-)5h49#$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['semuna-api.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['semuna-api.herokuapp.com', 'localhost', '*']
 
 
 # Application definition
