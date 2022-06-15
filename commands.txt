@@ -1,2 +1,5 @@
 heroku login
-git:remote -a semua-api
+heroku git:remote -a semuna-api
+heroku create 'name' > creating a project in terminal
+pip install gunicorn whitenoise
+git push heroku main
