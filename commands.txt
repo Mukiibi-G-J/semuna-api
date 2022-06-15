@@ -1,0 +1,2 @@
+heroku login
+git:remote -a semua-api
