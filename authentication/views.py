@@ -49,6 +49,7 @@ class MyTokenObtainPairView(TokenObtainPairView):
 def get_routes(request):
     routes = [
         '/api/token',
+        '/api/register'
         '/api/token/refresh',
         '/api/logout/blacklist/',
     ]
