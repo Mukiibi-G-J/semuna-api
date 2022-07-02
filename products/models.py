@@ -55,6 +55,7 @@ class Product(models.Model):
     description = models.CharField(verbose_name=_('Description'), max_length=255, help_text=_('Not required'), blank=True)
     regular_price = models.IntegerField( verbose_name=_('Regular Price'), help_text=_('Price in USh 🇺🇬'))
     discount_price = models.IntegerField( verbose_name=_('Discount Price'), help_text=_('Price in USh 🇺🇬') )
+    brand = models.CharField(max_length=255, default='brand name')
     is_acitve = models.BooleanField(verbose_name=_('Product Visibility'), help_text=_("Change product Visibility"), default=True)
     created_at = models.DateField(_('Created at'), auto_now_add=True)
     updated_at = models.DateField(_('Updated at'), auto_now=True)

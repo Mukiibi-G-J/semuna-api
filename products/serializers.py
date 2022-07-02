@@ -11,7 +11,7 @@ class ProductSerializer(serializers.ModelSerializer):
     product_image = ImagesSerializer(many=True, read_only=True)
     class Meta:
         model =Product
-        fields = ['id', 'category', 'title', 'description', 'slug', 'regular_price','product_image']
+        fields = ['id', 'category', 'title', 'description', 'slug', 'regular_price','product_image', 'brand']
 
 
 class CategorySerializer(serializers.ModelSerializer):
