@@ -41,6 +41,7 @@ class MyTokenObtainPairView(TokenObtainPairView):
 @api_view(["GET"])
 def get_routes(request):
     routes = [
+        "/api/order",
         "/api/products",
         "api/category",
         "/api/token",
